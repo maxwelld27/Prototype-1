@@ -15,6 +15,7 @@ public class FollowPlayer : MonoBehaviour
     }
 
     // Update is called once per frame
+    // Late is called after the physics are put in
     void LateUpdate()
     {
         transform.position = player.transform.position + offset; 
